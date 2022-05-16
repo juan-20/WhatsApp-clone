@@ -1,9 +1,15 @@
 import type { NextPage } from 'next'
+import Header from '../components/Header'
 
-const Home: NextPage = () => {
+interface props {
+  toggleTheme(): void;
+}
+
+
+function Home({ toggleTheme }: props) {
   return (
     <>
-      <h1>alô</h1>
+    <Header toggleTheme={toggleTheme} ></Header>
     </>
   )
 }

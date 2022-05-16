@@ -6,10 +6,11 @@ export default {
         secondary: '#',
 
         background: '#',
+        backgroundSecondary: '#1F2C34',
         text: '#',
         textSecondary: '#',
         
-        title: '#',
-        titleSecondary: '#',
+        title: '#8A96A0',
+        titleSecondary: '#89959F',
     },
 }
